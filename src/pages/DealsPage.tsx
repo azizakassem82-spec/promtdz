@@ -31,7 +31,7 @@ export default function DealsPage({ lang }: { lang: Language }) {
                         {/* Google AI Pro */}
                         <div className="liquid-glass border border-white/20 rounded-3xl p-6 sm:p-8 flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left bg-black/40 gap-4 sm:gap-6">
                             <motion.div animate={{ y: [0, -15, 0] }} transition={{ duration: 1, repeat: Infinity, ease: 'easeInOut' }} className="w-20 sm:w-24 md:w-32 h-20 sm:h-24 md:h-32 shrink-0 drop-shadow-2xl">
-                                <img src="/3d icons/google-logo-render.png" alt="Google AI Pro 3D" className="w-full h-full object-contain brightness-110" />
+                                <img src="/3d icons/google ai pro.png" alt="Google AI Pro 3D" className="w-full h-full object-contain brightness-110" />
                             </motion.div>
                             <div className="flex flex-col flex-1 h-full w-full">
                                 <span className="bg-blue-500/20 border border-blue-500/50 text-blue-300 px-3 py-1 rounded-full text-[10px] sm:text-xs font-bold mb-3 sm:mb-4 self-center sm:self-start">AI PRO</span>
@@ -194,6 +194,58 @@ export default function DealsPage({ lang }: { lang: Language }) {
                                 <h3 className="text-xl sm:text-2xl md:text-3xl text-white font-bold mb-2">Canva Pro</h3>
                                 <p className="text-slate-300 mb-4 sm:mb-6 flex-1 text-xs sm:text-sm md:text-base">Unlock premium templates, magic studio, and pro assets.</p>
                                 <a href="https://wa.me/213676610457?text=Hello,%20I%20am%20interested%20in%20Canva%20Pro!" target="_blank" rel="noopener noreferrer" className="block w-full bg-white text-black py-2.5 sm:py-3 rounded-xl font-bold hover:bg-slate-200 transition-colors text-center text-sm sm:text-base">Start Designing</a>
+                            </div>
+                        </div>
+
+                        {/* Microsoft Copilot */}
+                        <div className="liquid-glass border border-white/20 rounded-3xl p-6 sm:p-8 flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left bg-black/40 gap-4 sm:gap-6">
+                            <motion.div animate={{ y: [0, -15, 0] }} transition={{ duration: 1, repeat: Infinity, ease: 'easeInOut' }} className="w-20 sm:w-24 md:w-32 h-20 sm:h-24 md:h-32 shrink-0 drop-shadow-2xl">
+                                <img src="/3d icons/copilot-logo.png" alt="Copilot 3D" className="w-full h-full object-contain brightness-110" />
+                            </motion.div>
+                            <div className="flex flex-col flex-1 h-full w-full">
+                                <span className="bg-cyan-500/20 border border-cyan-500/50 text-cyan-300 px-3 py-1 rounded-full text-[10px] sm:text-xs font-bold mb-3 sm:mb-4 self-center sm:self-start">AI COMPANION</span>
+                                <h3 className="text-xl sm:text-2xl md:text-3xl text-white font-bold mb-2">Microsoft Copilot Pro</h3>
+                                <p className="text-slate-300 mb-4 sm:mb-6 flex-1 text-xs sm:text-sm md:text-base">Supercharge your productivity across Office apps and web.</p>
+                                <a href="https://wa.me/213676610457?text=Hello,%20I%20am%20interested%20in%20Microsoft%20Copilot%20Pro!" target="_blank" rel="noopener noreferrer" className="block w-full bg-white text-black py-2.5 sm:py-3 rounded-xl font-bold hover:bg-slate-200 transition-colors text-center text-sm sm:text-base">Start a Chat</a>
+                            </div>
+                        </div>
+
+                        {/* Leonardo AI */}
+                        <div className="liquid-glass border border-white/20 rounded-3xl p-6 sm:p-8 flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left bg-black/40 gap-4 sm:gap-6">
+                            <motion.div animate={{ y: [0, -15, 0] }} transition={{ duration: 1, repeat: Infinity, ease: 'easeInOut' }} className="w-20 sm:w-24 md:w-32 h-20 sm:h-24 md:h-32 shrink-0 drop-shadow-2xl">
+                                <img src="/3d icons/leonardo-logo.png" alt="Leonardo AI 3D" className="w-full h-full object-contain brightness-110" />
+                            </motion.div>
+                            <div className="flex flex-col flex-1 h-full w-full">
+                                <span className="bg-orange-500/20 border border-orange-500/50 text-orange-300 px-3 py-1 rounded-full text-[10px] sm:text-xs font-bold mb-3 sm:mb-4 self-center sm:self-start">CREATIVE</span>
+                                <h3 className="text-xl sm:text-2xl md:text-3xl text-white font-bold mb-2">Leonardo AI Pro</h3>
+                                <p className="text-slate-300 mb-4 sm:mb-6 flex-1 text-xs sm:text-sm md:text-base">Create stunning production-quality images with AI.</p>
+                                <a href="https://wa.me/213676610457?text=Hello,%20I%20am%20interested%20in%20Leonardo%20AI%20Pro!" target="_blank" rel="noopener noreferrer" className="block w-full bg-white text-black py-2.5 sm:py-3 rounded-xl font-bold hover:bg-slate-200 transition-colors text-center text-sm sm:text-base">Start Creating</a>
+                            </div>
+                        </div>
+
+                        {/* QuillBot */}
+                        <div className="liquid-glass border border-white/20 rounded-3xl p-6 sm:p-8 flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left bg-black/40 gap-4 sm:gap-6">
+                            <motion.div animate={{ y: [0, -15, 0] }} transition={{ duration: 1, repeat: Infinity, ease: 'easeInOut' }} className="w-20 sm:w-24 md:w-32 h-20 sm:h-24 md:h-32 shrink-0 drop-shadow-2xl">
+                                <img src="/3d icons/quillbot.png" alt="QuillBot 3D" className="w-full h-full object-contain brightness-110" />
+                            </motion.div>
+                            <div className="flex flex-col flex-1 h-full w-full">
+                                <span className="bg-green-500/20 border border-green-500/50 text-green-300 px-3 py-1 rounded-full text-[10px] sm:text-xs font-bold mb-3 sm:mb-4 self-center sm:self-start">WRITING</span>
+                                <h3 className="text-xl sm:text-2xl md:text-3xl text-white font-bold mb-2">QuillBot Premium</h3>
+                                <p className="text-slate-300 mb-4 sm:mb-6 flex-1 text-xs sm:text-sm md:text-base">Rewrite and improve your content with powerful AI paraphrase tools.</p>
+                                <a href="https://wa.me/213676610457?text=Hello,%20I%20am%20interested%20in%20QuillBot%20Premium!" target="_blank" rel="noopener noreferrer" className="block w-full bg-white text-black py-2.5 sm:py-3 rounded-xl font-bold hover:bg-slate-200 transition-colors text-center text-sm sm:text-base">Get QuillBot</a>
+                            </div>
+                        </div>
+
+                        {/* Windows 10/11 */}
+                        <div className="liquid-glass border border-white/20 rounded-3xl p-6 sm:p-8 flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left bg-black/40 gap-4 sm:gap-6">
+                            <motion.div animate={{ y: [0, -15, 0] }} transition={{ duration: 1, repeat: Infinity, ease: 'easeInOut' }} className="w-20 sm:w-24 md:w-32 h-20 sm:h-24 md:h-32 shrink-0 drop-shadow-2xl">
+                                <img src="/3d icons/windows.png" alt="Windows 3D" className="w-full h-full object-contain brightness-110" />
+                            </motion.div>
+                            <div className="flex flex-col flex-1 h-full w-full">
+                                <span className="bg-sky-500/20 border border-sky-500/50 text-sky-300 px-3 py-1 rounded-full text-[10px] sm:text-xs font-bold mb-3 sm:mb-4 self-center sm:self-start">OPERATING SYSTEM</span>
+                                <h3 className="text-xl sm:text-2xl md:text-3xl text-white font-bold mb-2">Windows 10/11 Pro</h3>
+                                <p className="text-slate-300 mb-4 sm:mb-6 flex-1 text-xs sm:text-sm md:text-base">Get official activation for Windows 10 or 11 Professional.</p>
+                                <a href="https://wa.me/213676610457?text=Hello,%20I%20am%20interested%20in%20Windows%2010/11%20Pro!" target="_blank" rel="noopener noreferrer" className="block w-full bg-white text-black py-2.5 sm:py-3 rounded-xl font-bold hover:bg-slate-200 transition-colors text-center text-sm sm:text-base">Get License</a>
                             </div>
                         </div>
                     </div>
