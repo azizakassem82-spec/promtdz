@@ -234,17 +234,18 @@ export default function DealsPage({ lang }: { lang: Language }) {
                                 <p className="text-slate-300 mb-4 sm:mb-6 flex-1 text-xs sm:text-sm md:text-base">Rewrite and improve your content with powerful AI paraphrase tools.</p>
                                 <a href="https://wa.me/213676610457?text=Hello,%20I%20am%20interested%20in%20QuillBot%20Premium!" target="_blank" rel="noopener noreferrer" className="block w-full bg-white text-black py-2.5 sm:py-3 rounded-xl font-bold hover:bg-slate-200 transition-colors text-center text-sm sm:text-base">Get QuillBot</a>
                             </div>
-                            {/* Perplexity */}
-                            <div className="liquid-glass border border-white/20 rounded-3xl p-6 sm:p-8 flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left bg-black/40 gap-4 sm:gap-6">
-                                <motion.div animate={{ y: [0, -15, 0] }} transition={{ duration: 1, repeat: Infinity, ease: 'easeInOut' }} className="w-20 sm:w-24 md:w-32 h-20 sm:h-24 md:h-32 shrink-0 drop-shadow-2xl">
-                                    <img src="/3d icons/perplexity-color.png" alt="Perplexity 3D" className="w-full h-full object-contain brightness-110" />
-                                </motion.div>
-                                <div className="flex flex-col flex-1 h-full w-full">
-                                    <span className="bg-cyan-400/20 border border-cyan-400/50 text-cyan-200 px-3 py-1 rounded-full text-[10px] sm:text-xs font-bold mb-3 sm:mb-4 self-center sm:self-start">AI SEARCH</span>
-                                    <h3 className="text-xl sm:text-2xl md:text-3xl text-white font-bold mb-2">Perplexity Pro</h3>
-                                    <p className="text-slate-300 mb-4 sm:mb-6 flex-1 text-xs sm:text-sm md:text-base">Unlock the most powerful AI search engine with Pro features and models.</p>
-                                    <a href="https://wa.me/213676610457?text=Hello,%20I%20am%20interested%20in%20Perplexity%20Pro!" target="_blank" rel="noopener noreferrer" className="block w-full bg-white text-black py-2.5 sm:py-3 rounded-xl font-bold hover:bg-slate-200 transition-colors text-center text-sm sm:text-base">Start Searching</a>
-                                </div>
+                        </div>
+
+                        {/* Perplexity */}
+                        <div className="liquid-glass border border-white/20 rounded-3xl p-6 sm:p-8 flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left bg-black/40 gap-4 sm:gap-6">
+                            <motion.div animate={{ y: [0, -15, 0] }} transition={{ duration: 1, repeat: Infinity, ease: 'easeInOut' }} className="w-20 sm:w-24 md:w-32 h-20 sm:h-24 md:h-32 shrink-0 drop-shadow-2xl">
+                                <img src="/3d icons/perplexity-color.png" alt="Perplexity 3D" className="w-full h-full object-contain brightness-110" />
+                            </motion.div>
+                            <div className="flex flex-col flex-1 h-full w-full">
+                                <span className="bg-cyan-400/20 border border-cyan-400/50 text-cyan-200 px-3 py-1 rounded-full text-[10px] sm:text-xs font-bold mb-3 sm:mb-4 self-center sm:self-start">AI SEARCH</span>
+                                <h3 className="text-xl sm:text-2xl md:text-3xl text-white font-bold mb-2">Perplexity Pro</h3>
+                                <p className="text-slate-300 mb-4 sm:mb-6 flex-1 text-xs sm:text-sm md:text-base">Unlock the most powerful AI search engine with Pro features and models.</p>
+                                <a href="https://wa.me/213676610457?text=Hello,%20I%20am%20interested%20in%20Perplexity%20Pro!" target="_blank" rel="noopener noreferrer" className="block w-full bg-white text-black py-2.5 sm:py-3 rounded-xl font-bold hover:bg-slate-200 transition-colors text-center text-sm sm:text-base">Start Searching</a>
                             </div>
                         </div>
 
