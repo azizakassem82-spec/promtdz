@@ -23,8 +23,21 @@ export default function DealsPage({ lang }: { lang: Language }) {
                             <div className="flex flex-col flex-1 h-full w-full">
                                 <span className="bg-teal-500/20 border border-teal-500/50 text-teal-300 px-3 py-1 rounded-full text-[10px] sm:text-xs font-bold mb-3 sm:mb-4 self-center sm:self-start">PREMIUM</span>
                                 <h3 className="text-xl sm:text-2xl md:text-3xl text-white font-bold mb-2">ChatGPT Plus</h3>
-                                <p className="text-slate-300 mb-4 sm:mb-6 flex-1 text-xs sm:text-sm md:text-base">Access GPT-4o, advanced data analysis, and voice tools.</p>
+                                <p className="text-slate-300 mb-4 sm:mb-6 flex-1 text-xs sm:text-sm md:text-base">Access GPT-4.5, advanced data analysis, and voice tools.</p>
                                 <a href="https://wa.me/213676610457?text=Hello,%20I%20am%20interested%20in%20a%20ChatGPT%20Plus%20subscription!" target="_blank" rel="noopener noreferrer" className="block w-full bg-white text-black py-2.5 sm:py-3 rounded-xl font-bold hover:bg-slate-200 transition-colors text-center text-sm sm:text-base">Start a Chat</a>
+                            </div>
+                        </div>
+
+                        {/* Google AI Pro */}
+                        <div className="liquid-glass border border-white/20 rounded-3xl p-6 sm:p-8 flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left bg-black/40 gap-4 sm:gap-6">
+                            <motion.div animate={{ y: [0, -15, 0] }} transition={{ duration: 1, repeat: Infinity, ease: 'easeInOut' }} className="w-20 sm:w-24 md:w-32 h-20 sm:h-24 md:h-32 shrink-0 drop-shadow-2xl">
+                                <img src="/3d icons/google-logo-render.png" alt="Google AI Pro 3D" className="w-full h-full object-contain brightness-110" />
+                            </motion.div>
+                            <div className="flex flex-col flex-1 h-full w-full">
+                                <span className="bg-blue-500/20 border border-blue-500/50 text-blue-300 px-3 py-1 rounded-full text-[10px] sm:text-xs font-bold mb-3 sm:mb-4 self-center sm:self-start">AI PRO</span>
+                                <h3 className="text-xl sm:text-2xl md:text-3xl text-white font-bold mb-2">Google AI Pro</h3>
+                                <p className="text-slate-300 mb-4 sm:mb-6 flex-1 text-xs sm:text-sm md:text-base">Get 6 months of premium access to Google's professional AI suite.</p>
+                                <a href="https://wa.me/213676610457?text=Hello,%20I%20am%20interested%20in%20the%20Google%20AI%20Pro%206%20months%20subscription!" target="_blank" rel="noopener noreferrer" className="block w-full bg-white text-black py-2.5 sm:py-3 rounded-xl font-bold hover:bg-slate-200 transition-colors text-center text-sm sm:text-base">Get 6 Months</a>
                             </div>
                         </div>
 
